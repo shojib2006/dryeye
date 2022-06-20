@@ -128,7 +128,7 @@ def eyeblink (name):
         countdown = duration-timer
         realTimer = math.floor(time.time() - seconds)
         print('countdown : ' + str(countdown))
-        if countdown == 0 or timer == 30:
+        if countdown == 0 or timer == 10:
 	        return total , timer , realTimer , countdown
 
 def clearFolder():

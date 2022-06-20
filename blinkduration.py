@@ -71,7 +71,7 @@ def blinkduration (name):
         print('timer by frame : ' + str(timer))
         countdown = duration-timer
         print('countdown : ' + str(countdown))
-        if total != 0 or countdown == 0 or timer == 30:
+        if total != 0 or countdown == 0 or timer == 10:
 	        return total , duration , timer
 
 def clearFolder():
